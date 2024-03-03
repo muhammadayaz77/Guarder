@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Color used your own to help for advance */
+:root {
+    --primary-color: #ab2c48;
+    --secondary-color: #43121d;
+    --third-color: #f98169;
+    --text-color: #555;
+    --text-grey: #999;
+    --primary-font: 'Roboto', 'sans-serif';
+    --secondary-font: 'Quicksand', 'sans-serif';
+}
+
+/* Header and Para Style in advance  */
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h2 {
+    color: black;
+    font-size: 2.2rem;
+    font-weight: 800;
+    /* text-transform: capitalize; */
+    line-height: 3rem;
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 0.5rem;
+}
+
+/* p{
+    font-size: 1rem;
+    /* font-weight: 400; 
+} */
+/* Used all Media as per Required */
+/* @media screen and (max-width:767px){
+    #bg{
+        margin-top: 70px;
+    }
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size:2rem;
+        line-height: 2.0625rem;
+    }
+} */
+
+#hero #h-h2 {
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+
+#hero .nav-link {
+    color: white;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+#hero .nav-link:hover {
+    background-color: black;
+}
+
+#pre .pre-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+}
+
+#navbarSupportedContent {
+    text-align: center;
+}
+
+.navbar-toggler:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+#hero {
+    background: rgba(0, 0, 0, 0.9) url('./images/hero-bg.jpg') no-repeat center center/cover;
+    min-height: 400px;
+}
+
+#about .img-fluid {
+    min-height: 300px;
+    max-width: auto;
+}
+
+#btn1 {
+    /* border: unset; */
+    border-radius: unset;
+    padding: 10px 40px;
+    color: white;
+    background-color: yellow;
+}
+
+#btn2 {
+    border-radius: unset;
+    padding: 10px 40px;
+}
+
+#btn2:hover {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+#btn1:hover {
+    background-color: transparent;
+    color: yellow;
+}
+
+#hero #same {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#hero .se,
+#hero p {
+    color: white;
+}
+
+#hero .sa {
+    color: #F1DB25;
+}
+
+#gallery #imgs {
+    object-fit: cover;
+}
+
+#services {
+    background-color: #1C1C1C;
+}
+
+#services h2 {
+    color: white;
+    font-weight: 700;
+}
+
+#services i {
+    font-size: 40px;
+}
+
+#services h4 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* Testimonal */
+.testimonials {
+    padding: 100px 0;
+}
+
+.testimonials h3 {
+    margin-bottom: 20px;
+}
+
+.testimonials .card {
+    border-bottom: 3px yellow solid !important;
+    transition: 0.5s;
+    margin-top: 60px;
+}
+
+.testimonials .card i {
+    background-color: yellow;
+    color: #ffffff;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: -40px auto 0 auto;
+}
+
+#contact {
+    background: url('./images/contact-bg.jpg') no-repeat center center/cover;
+}
+
+#contact #in {
+    width: 100%;
+    padding: 4px 8px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+#contact #in:focus {
+    outline: unset;
+}
+
+#contact h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#contact #in2 {
+    width: 100%;
+    padding: 30px 8px;
+    font-size: 15px;
+}
+
+#contact #in2:focus {
+    outline: unset;
+}
+
+#guard .content {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    min-width: 100%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.rel {
+    position: relative;
+}
+
+#guard #con {
+    display: flex;
+    justify-content: center;
+}
+
+#guard h2{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#footer{
+    background-color: #101010;
+    color: white;
+}
+#footer h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+#f #p:hover{
+    color: #F1DB25;
+    cursor: pointer;
+}
+#footer .in{
+    border-radius: 30px;
+    height: 30px;
+    padding: 10px;
+}
+#footer #btn1{
+    border-radius: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#footer .in:focus{
+    outline: unset;
+}
+#footer #img-last{
+    max-width: 80px;
+    max-height: 100px;
+}
+
+#footer .last-p{
+    opacity: 0.8;
+}
